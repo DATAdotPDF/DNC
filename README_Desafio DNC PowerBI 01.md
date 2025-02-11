@@ -6,7 +6,7 @@ README
 
 [Base de dados desafio.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d5d21dd8-4c11-4e13-8821-b7dacab4f189/Base_de_dados_desafio.xlsx)
 
-Neste desafio proposto pela escola de Engenharia de Dados DN, previ os resultados de um e-commerce utilizando o Power BI
+Neste desafio proposto pela escola de Engenharia de Dados DNC, previ os resultados de um e-commerce utilizando o Power BI
 
 Apliquei meus conhecimentos de Excel e de Power BI para construir um modelo de regressão linear capaz de prever os resultados de faturamento de um e-commerce. 
 > 
