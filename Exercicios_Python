@@ -1,0 +1,180 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPjSENDaQSfs97of3vJbUFP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/DATAdotPDF/DNC/blob/main/Exercicios_Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "4gKHWReXKf_w"
+      },
+      "outputs": [],
+      "source": [
+        "nome = \"Pedro\"\n",
+        "idade = 30\n",
+        "cidade = \"Rio de Janeiro\""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Meu nome é\",(nome))\n",
+        "print(\"Minha idade é\",(idade))\n",
+        "print(\"Minha cidade é\",(cidade))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-u1HdNGMLlWI",
+        "outputId": "67c1876c-fe03-499f-8f5f-87bf3e80d3a4"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Meu nome é Pedro\n",
+            "Minha idade é 30\n",
+            "Minha cidade é Rio de Janeiro\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "resultado = 20 ** 3\n",
+        "print(resultado)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "s3ELkAd1O4Mv",
+        "outputId": "0af44866-ef3b-4a11-d27a-1270342559d0"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Area do Retangulo"
+      ],
+      "metadata": {
+        "id": "iGMbomHUQPFf"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "largura = 5\n",
+        "altura = 10\n",
+        "area = largura * altura\n",
+        "perimetro = 2 * (largura+altura)\n",
+        "\n",
+        "print(\"Area do retangulo: \", area)\n",
+        "print(\"Perimetro do retangulo: \", perimetro)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OUy9BuJOQVfk",
+        "outputId": "e39f324f-ef48-47b0-cfd1-4d430ad03897"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Area do retangulo:  50\n",
+            "Perimetro do retangulo:  30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Calculadora"
+      ],
+      "metadata": {
+        "id": "vQAmDXhbRGDx"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 50\n",
+        "y = 3\n",
+        "\n",
+        "print(\"Adição: \", x+y)\n",
+        "print(\"Subtração: \", x-y)\n",
+        "print(\"Multiplicação: \", x*y)\n",
+        "print(\"Divisão: \", x/y)\n",
+        "print(\"Divisão Inteira: \", x//y)\n",
+        "print(\"Resto da Divisão: \", x%y)\n",
+        "print(\"Potência: \", x**y)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ExuKzUutRHRt",
+        "outputId": "14efbc24-a968-4a49-d84e-e784264f205a"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Adição:  53\n",
+            "Subtração:  47\n",
+            "Multiplicação:  150\n",
+            "Divisão:  16.666666666666668\n",
+            "Divisão Inteira:  16\n",
+            "Resto da Divisão:  2\n",
+            "Potência:  125000\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
