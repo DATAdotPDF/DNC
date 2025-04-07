@@ -2,7 +2,6 @@
 
 # 🚀 passo-a-passo:
 
-<aside>
 📎 Informações do desafio:
     
 ### Contruí um dashboard utilizando SQL em busca de definir os próximos passos de uma Edtech. utilizei as informações para estabelecer a estratégia da empresa para o próximo ano.
@@ -31,27 +30,18 @@ Para te ajudar nesse processo, a seguir está um passo a passo para iniciar o de
 
 ## **Etapa 01) Tipo de Gráfico: Pizza**
 
-<aside>
 ✅ **Funções**: Operação Matemática | Agrupamento
 **Tabelas**: leads_basic_details
 
-</aside>
-
 ## **Etapa 02) Tipo de gráfico: Cartão**
 
-<aside>
 ✅ **Funções**: Operação Matemática
 **Tabelas**: leads_basic_details
 
-</aside>
-
 ## **Etapa 03) Tipo de gráfico: Barras**
 
-<aside>
 ✅ **Funções**: Operação Matemática | Agrupamento | Ordenação
 **Tabelas**: leads_basic_details
-
-</aside>
 
 ## **Etapa 04) Tipo de gráfico: Tabela**
 
@@ -61,12 +51,9 @@ Para te ajudar nesse processo, a seguir está um passo a passo para iniciar o de
 ✅ **Funções**: Operação Matemática | Agrupamento | Where
 **Tabelas**: leads_demo_watched_details
 
-</aside>
-
 ## **Etapa 05) Tipo de gráfico: Linhas**
 
 **Contruí um gráfico de linhas com a quantidade de ligações atendidas por plataforma ao longo do tempo e coloquei tudo em um dashboard**
 
-<aside>
 ✅ **Funções**: Operação Matemática | Agrupamento | União | Where
 **Tabelas**: leads_basic_details | leads_interaction_details
