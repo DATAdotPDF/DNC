@@ -1,0 +1,23 @@
+🎬 Gestão de Cronograma — Manual de Sobrevivência para o Século XXI
+Descrição:
+Script para acompanhamento de etapas e prazos de produção audiovisual. Permite visualizar em tempo real o status de cada fase e identificar atrasos.
+
+Funcionalidades:
+Cálculo de dias restantes para cada etapa.
+Detecção de prazos vencidos.
+Apresentação amigável do status de produção.
+
+Tecnologias:
+Python
+datetime
+
+Como usar:
+Altere os valores do dicionário cronograma com suas datas reais.
+Rode o script.
+Verifique o status de cada etapa no terminal.
+
+Melhorias futuras:
+Exportar como dashboard com Streamlit.
+Enviar alertas por e-mail ou WhatsApp.
+
+python cronograma.py
