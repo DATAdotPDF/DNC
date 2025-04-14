@@ -18,6 +18,4 @@ Verifique o status de cada etapa no terminal.
 
 Melhorias futuras:
 Exportar como dashboard com Streamlit.
-Enviar alertas por e-mail ou WhatsApp.
-
-python cronograma.py
+Enviar alertas por e-mail ou WhatsApp
